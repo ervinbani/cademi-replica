@@ -1,52 +1,53 @@
-.bloc{
+.container{
   width: 100%;
-  height: 500px;
 background: lightgrey;
 }
 
-.bloc .titolo{
-  color: #565a5c;
-  font-size: 45px;
+
+.row{
+  width: 1170px;
+  margin: 0 auto;
   text-align: center;
-  font-weight: 300;
-  padding-top: 10px;
-  margin-bottom: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
 }
-.container{
-width: 100%;
-height: 445px;
+.bg-grey{
+  background: lightgrey;
 }
-.column-1{
-  border: 1px solid black;
-  width: 33%;
-  height: 100%;
+.leftcolumn, .rightcolumn{
   float: left;
+  width: 50%;
+
 }
-.column-1, .column-2{
-  border: 1px solid black;
-  width: 33%;
-  height: 100%;
-  float: left;
+#firstcontainer img {
+  height: 100px;
 }
 
-.column-3{
-  border: 1px solid black;
+
+#secondcontainer .leftcolumn, #secondcontainer .centralcolumn, #secondcontainer .rightcolumn{
   width: 33%;
-  height: 100%;
-  float: right;
+height: auto;
+float: left;
+padding-top: 20px;
+padding-bottom: 20px;
 }
+
 .clear{
-  clear: both;
+  clear:both;
 }
-.column-1 img{
-  width: 110px;
-  height: 110px;
-margin-left: 50%;
+#secondcontainer img{
+  height: 100px;
 }
-.column-1 .textcenter{
-  color: #565a5c;
-  font-size: 30px;
-  text-align: center;
+
+#thirstcontainer .central{
+  width: 100%;
+height: auto;
+float: left;
+margin-bottom: 10px;
+}
+#thirstcontainer img{
+  height: 100px;
 }
 
 
