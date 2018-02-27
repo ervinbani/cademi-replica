@@ -32,22 +32,6 @@ float: left;
 padding-top: 20px;
 padding-bottom: 20px;
 }
-@media screen and (max-width: 480px){
-  .leftcolumn, .rightcolumn{
-    float: left;
-    width: 100%;
-  }
-  #secondcontainer .leftcolumn, #secondcontainer .centralcolumn, #secondcontainer .rightcolumn{
-    width: 100%;
-  height: auto;
-  float: left;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  }
-
-
-}
-
 .clear{
   clear:both;
 }
@@ -65,6 +49,21 @@ margin-bottom: 10px;
   height: 100px;
 }
 
+@media screen and (max-width: 480px){
+  .leftcolumn, .rightcolumn{
+    float: left;
+    width: 100%;
+  }
+  #secondcontainer .leftcolumn, #secondcontainer .centralcolumn, #secondcontainer .rightcolumn{
+    width: 100%;
+  height: auto;
+  float: left;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  }
+
+
+}
 
  *{
    box-sizing: border-box;
